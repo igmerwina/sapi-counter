@@ -1,0 +1,18 @@
+image: artifactory.pegadaian.co.id:8084/docker:latest
+# services:
+#   - name: artifactory.pegadaian.co.id:8084/docker:dind
+#     command: ["--insecure-registry=artifactory.pegadaian.co.id:8084"]
+
+stages:
+  - trigger_okd_webhook
+
+variables:
+  DOCKER_AUTH_CONFIG: '{"auths": {"artifactory.pegadaian.co.id:8084": {"auth": "$DOCKER_AU_CONFIG"}}}'
+
+trigger-webhook:
+  image: artifactory.pegadaian.co.id:8084/rey/nginxcurl:latest
+  stage: trigger_okd_webhook
+  script:
+    - curl -X POST -k $WEBHOOK_URL_JKT
+  only:
+    - master
