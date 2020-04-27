@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sapi-counter/static/css/main.49f711a2.chunk.css",
+    "main.js": "/sapi-counter/static/js/main.84eb6122.chunk.js",
+    "main.js.map": "/sapi-counter/static/js/main.84eb6122.chunk.js.map",
+    "runtime-main.js": "/sapi-counter/static/js/runtime-main.7210031a.js",
+    "runtime-main.js.map": "/sapi-counter/static/js/runtime-main.7210031a.js.map",
+    "static/css/2.fe8af591.chunk.css": "/sapi-counter/static/css/2.fe8af591.chunk.css",
+    "static/js/2.ce4aecb0.chunk.js": "/sapi-counter/static/js/2.ce4aecb0.chunk.js",
+    "static/js/2.ce4aecb0.chunk.js.map": "/sapi-counter/static/js/2.ce4aecb0.chunk.js.map",
+    "index.html": "/sapi-counter/index.html",
+    "precache-manifest.3d2adfdf44648ae13e2d900225a62059.js": "/sapi-counter/precache-manifest.3d2adfdf44648ae13e2d900225a62059.js",
+    "service-worker.js": "/sapi-counter/service-worker.js",
+    "static/css/2.fe8af591.chunk.css.map": "/sapi-counter/static/css/2.fe8af591.chunk.css.map",
+    "static/css/main.49f711a2.chunk.css.map": "/sapi-counter/static/css/main.49f711a2.chunk.css.map",
+    "static/js/2.ce4aecb0.chunk.js.LICENSE.txt": "/sapi-counter/static/js/2.ce4aecb0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7210031a.js",
+    "static/css/2.fe8af591.chunk.css",
+    "static/js/2.ce4aecb0.chunk.js",
+    "static/css/main.49f711a2.chunk.css",
+    "static/js/main.84eb6122.chunk.js"
+  ]
+}
