@@ -1,5 +1,20 @@
-# Sapi Counter 
+# 🐄 Sapi Counter
 
-![sapi-counter](https://user-images.githubusercontent.com/8059548/80303090-392a9880-87d8-11ea-907b-640655f36819.png "Sapi Counter")
+A fun and interactive cow counting game built with Vue 3, Vite, and Tailwind CSS.
 
-Learn react by making a counter of sapi 😆🐄
+## Quick Start
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## Features
+
+- 🎮 Interactive cow counting game
+- 📊 Three difficulty levels (Easy, Medium, Hard)
+- 🏆 Score tracking
+- 🖼️ Real cow images from Unsplash
+- 📱 Fully responsive design
+- ⚡ Built with Vite for fast development
